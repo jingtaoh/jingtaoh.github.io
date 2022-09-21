@@ -121,7 +121,11 @@
                 <td style="padding:20px;width:45%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='hand_image'>
-                      <img src='images/hand-system-480p.gif' width="320" height="180">
+                      <!-- <img src='images/hand-system-480p.gif' width="320" height="180"> -->
+                      <video width=320 height=180 muted autoplay loop>
+                        <source src="video/hand-system.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
                     </div>
                     <img src='images/hand-system.png' width="320" height="180">
                   </div>
@@ -503,7 +507,7 @@
                     A ray tracer <i class="fa fa-image"></i> capable of rendering opaque surface (triangles and
                     spheres)
                     with lighting, shadows, and
-                    reflection. Anti-aliasing and soft shadows were implemented to improve the image quality. BVH and
+                    reflections. Anti-aliasing and soft shadows were implemented to improve the image quality. BVH and
                     OpenMP were utilized to improve the performance. Toon shading is for fun.
                   </p>
                 </td>
