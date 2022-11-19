@@ -41,7 +41,10 @@
                   <p style="text-align:center">
                     <name>Jingtao Huang</name>
                   </p>
-                  <p>My name is Jingtao Huang (黄景涛). I graduated as of August 2022 with a master's degree in
+                  <p>My name is Jingtao Huang (黄景涛). Currently, I'm an associate software engineer at <a
+                      href="https://www.blizzard.com/en-us/">Blizzard Entertainment</a> in
+                    Irvine, California. </p>
+                  <p>I graduated as of August 2022 with a master's degree in
                     <a href="https://www.cs.usc.edu/">Computer
                       Science</a> from <a href="https://www.usc.edu/">University of Southern California</a>, where I
                     have been
@@ -60,9 +63,9 @@
                   </p>
                   <p style="text-align:center">
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:jingtaoh@usc.edu">Email (jingtaoh@usc.edu)</a> &nbsp/&nbsp
-                    <i class="fa fa-file-pdf-o"></i>
-                    <a href="data/Resume_Jingtao.pdf">Résumé</a> &nbsp/&nbsp
+                    <a href="mailto:jinhuang@blizzard.com">Email (jinhuang@blizzard.com)</a> &nbsp/&nbsp
+                    <!-- <i class="fa fa-file-pdf-o"></i> -->
+                    <!-- <a href="data/Resume_Jingtao.pdf">Résumé</a> &nbsp/&nbsp -->
                     <!-- <i class="fa fa-mortar-board"></i> -->
                     <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a>
                     &nbsp/&nbsp -->
@@ -87,6 +90,8 @@
                 <td>
                   <heading>News 🗞</heading>
                   <ul>
+                    <li> [2022-11] I'm starting my new job at Blizzard Animation. How exciting!
+                    </li>
                     <li> [2022-09] Our paper is accepted to <a href="https://sa2022.siggraph.org/en/">SIGGRAPH
                         Asia 2022</a>! Check it out <a href="https://viterbi-web.usc.edu/~jbarbic/handSystem/">here</a>.
                     </li>
@@ -96,7 +101,7 @@
                     </li>
                     <li> [2022-08] I graduated from USC. Fight On! Stay tuned for the
                       next adventure. :-)</li>
-                    <li> [2022-07] The new website is live. Hooray! <i class="fa fa-bullhorn"></i></li>
+                    <!-- <li> [2022-07] The new website is live. Hooray! <i class="fa fa-bullhorn"></i></li> -->
                   </ul>
                 </td>
               </tr>
@@ -292,6 +297,37 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="blizz_stop()" onmouseover="blizz_start()">
+                <td style="padding:20px;width:45%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='blizz_image'>
+                      <img src='images/Blizzard-logo1.png' width="320" height="160">
+                    </div>
+                    <!-- </a> -->
+                    <img src='images/Blizzard-logo1.png' width="320" height="160">
+                  </div>
+                  <script type="text/javascript">
+                    function blizz_start() {
+                      document.getElementById('atvi_image').style.opacity = "1";
+                    }
+
+                    function blizz_stop() {
+                      document.getElementById('atvi_image').style.opacity = "0";
+                    }
+                    blizz_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:55%;vertical-align:middle">
+                  <papertitle><a href="https://www.blizzard.com/en-us/">Blizzard Entertainment</a>
+                    | Associate Software Engineer</papertitle>
+                  <br>
+                  Nov. 2022 - Present (Managed by <a href="https://www.linkedin.com/in/vinod-melapudi-2aa0827/">Vinod
+                    Melapudi</a>)
+                  <br>
+                  <p></p>
+                  <p>Working for the Cinematic R&D team at Blizzard Animation.</p>
+                </td>
+              </tr>
               <tr onmouseout="atvi_stop()" onmouseover="atvi_start()">
                 <td style="padding:20px;width:45%;vertical-align:middle">
                   <!-- <a href="https://research.activision.com/"> -->
@@ -325,9 +361,9 @@
                   <p>
                   <details>
                     <summary>
-                      Work on hand motion capture.
+                      Worked on hand motion capture.
                     </summary>
-                    For my 2022 summer internship at Activion Capture Studio, I explore various hand motion
+                    For my 2022 summer internship at Activision Capture Studio, I explore various hand motion
                     capture
                     technology used in game production. In particular, I research on capturing and solving
                     realistic
@@ -372,7 +408,7 @@
                   <p></p>
                   <p>
                   <details>
-                    <summary>Work on interactive photo-realistic rendering.</summary>For my 2021 summer
+                    <summary>Worked on interactive photo-realistic rendering.</summary>For my 2021 summer
                     internship at Adobe Research, I improved the rendering capabilities of a geometry
                     processing library, <a href="https://github.com/adobe/lagrange"><em>Lagrange</em></a>, by
                     integrating a path tracer into its UI module, in which researchers
